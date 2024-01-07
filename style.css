@@ -83,7 +83,6 @@ nav{
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 2rem;
     text-align: center;
 }
 
@@ -133,30 +132,6 @@ header .content b{
     font-weight: 900;
     text-decoration: underline;
     color: #ccc;
-}
-
-header .image{
-    position: relative;
-}
-
-header .image::before{
-    content: "o";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 38rem;
-    font-weight: 400;
-    line-height: 20rem;
-    color: #1d4ed8;
-    opacity: 0.2;
-    z-index: -100;
-}
-
-header .image img{
-    max-width: 600px;
-    margin: auto;
-
 }
 
 section .header{
@@ -405,9 +380,6 @@ h5{
     }
     header{
         grid-template-columns:  repeat(1,1fr);
-    }
-    header .image{
-        grid-area: 1/1/2/2;
     }
     .features{
         grid-template-columns: repeat(2,1fr);
