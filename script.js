@@ -18,3 +18,8 @@ link2.addEventListener('click', () => {
 link3.addEventListener('click', () => {
     scrollToElement('.column');
 })
+
+function toggleContent() {
+    var content = document.querySelector('.contentjs');
+    content.classList.toggle('hidden');
+}

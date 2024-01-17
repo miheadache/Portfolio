@@ -149,6 +149,10 @@ section .header{
     gap: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
 .features .card{
     background-color: #27272a;
     padding: 1rem;
