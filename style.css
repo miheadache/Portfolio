@@ -366,6 +366,13 @@ h5{
     animation: blink 1.4s infinite;
 }
 
+
+.jsblink{
+    animation: blink 0.7s infinite;
+    color: white;
+}
+
+
 @keyframes blink {
     0%{
         opacity:1;
